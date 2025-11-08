@@ -9,5 +9,7 @@ scipy
 
 scikit-learn
 seaborn
+torch
+torchvision
 
 ipywidgets

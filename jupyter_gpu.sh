@@ -5,11 +5,11 @@
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=4
 #SBATCH --job-name=jupyter
-#SBATCH --output=~/slurm-jupyter-%j.out
+#SBATCH --output=slurm-jupyter-%j.out
 set -euo pipefail
 
 # Activate your venv
-source "$HOME/.venv/bin/activate"
+source "$HOME/.env/bin/activate"
 
 nvidia-smi || true
 export XDG_RUNTIME_DIR=""
