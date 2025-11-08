@@ -1,0 +1,13 @@
+# Basic scientific and Jupyter stack
+jupyterlab
+notebook
+ipykernel
+numpy
+pandas
+matplotlib
+scipy
+
+scikit-learn
+seaborn
+
+ipywidgets
