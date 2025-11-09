@@ -1,0 +1,6 @@
+# HPC logs
+*.out
+# Kaggle API key
+kaggle.json
+# Competition data, it's not allowed to be shared
+data/*
